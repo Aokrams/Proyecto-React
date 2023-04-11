@@ -1,0 +1,27 @@
+.principalMenu{
+    display: flex;
+    align-items: normal;
+    justify-content: space-around;
+    height: 75px;
+    background: linear-gradient(pink ,white, pink);
+}
+
+.principalMenu a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    height: 35%;
+    color: palevioletred;
+}
+
+.logoMenu img{
+    margin-left: 100px;
+    margin-top: 4%;
+}
+
+.perfilMenu a{
+    font-size: 50px;
+    margin-right: 100px;
+    
+}
+
