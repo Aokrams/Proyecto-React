@@ -2,6 +2,7 @@ import React from "react";
 import { MenuBar } from "../components";
 import PlantasLog from "../components/images/PlantasLog.png"
 import ChatBubble from "../components/images/ChatBubble.png"
+import MujerSentada from "../components/images/MujerSentada.png"
 
 const LoginPage = () => {
     return (
@@ -28,6 +29,9 @@ const LoginPage = () => {
             </div>
             <div className="Burbuja">
                 <img src={ChatBubble} alt=""></img>
+            </div>
+            <div className="MujerSentada">
+                <img src={MujerSentada} alt=""></img>
             </div>
         </div>
     )

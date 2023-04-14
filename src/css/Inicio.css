@@ -1,7 +1,13 @@
-body {
+.CuerpoInicio {
     background-image: url(../components/images/Fondo.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+}
+
+.ContenedorPrimerVista {
+    height: 500px;
+    position: relative;
+    z-index: 1;
 }
 
 .titulo {
@@ -18,42 +24,41 @@ body {
     margin-bottom: 0%;
 }
 
-.frase {
+.fraseInicio {
     display: flex;
-
-    margin-left: 300px;
+    margin-left: 340px;
 }
 
-.frase2 {
-    display: flex;
-
-    margin-left: 300px;
-}
-
-.frase h2 {
+.fraseInicio h2 {
     margin-top: 0%;
     text-align: right;
     margin-bottom: 5px;
-}
-
-.frase2 h2 {
-    margin-top: 0%;
-    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .imagenPortada img {
     height: 100%;
     width: 100%;
-    z-index: -1;
     position: absolute;
     top: 25%;
+    z-index: 0;
 }
 
 .boton button{
     display: block;
     position: absolute;
-    left: 45%;
-    width: 8%;
+    padding: 5px;
+    left: 42.3%;
+    margin-top: 1%;
+    width: 10%;
+    font-size: 20px;
+    color: rgb(249, 244, 237);
+    text-shadow: 1px 1px rgb(84, 84, 84);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px 1px rgb(177, 177, 177);
+    border-color: rgba(166, 115, 12, 0.651);
+    background-image: url(../components/images/FondoMaderaBoton.jpg);
+    background-size: contain;
 }
 
 .FondoTranslusido {
@@ -63,7 +68,179 @@ body {
     left: 0;
     right: 0;
     margin: auto;
-    z-index: -1;
     background-color: white;
     opacity: 0.7;
+}
+
+.VisitaRedApoyo {
+    height: 600px;
+    margin-top: 5%;
+    position: relative;
+    z-index: 1;
+}
+
+.RedApoyoTitulo h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    font-size: 35px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 1px 2px black;
+}
+
+.TipEjercicio img {
+    height: 230px;
+    left: 34%;
+    top: 40%;
+    position: absolute;
+}
+
+.TipComer img {
+    height: 300px;
+    top: 33.7%;
+    left: 14%;
+    position: absolute;
+}
+
+.TipMedita img {
+    height: 300px;
+    top: 13%;
+    left: 24.7%;
+    position: absolute;
+}
+
+.RomboDorado img{
+    height: 140px;
+    position: absolute;
+    left: 30.4%;
+    top: 59.1%;
+}
+
+.RomboDoradoGrande img{
+    height: 190px;
+    position: absolute;
+    left: 18.3%;
+    top: 4%;
+}
+
+.DescripcionRedApoyo h3{
+    display: flex;
+    text-align: center;
+    position: absolute;
+    right: 12%;
+    top: 22%;
+    color: rgba(224, 241, 119, 0.884);
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.FondoOscuroRedApoyo {
+    width: 80%;
+    height: 600px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: linear-gradient(rgb(23, 34, 24), rgb(81, 92, 82));
+    opacity: 0.6;
+    margin-top: 5%;
+}
+
+.ParteRosada {
+    height: 300px;
+    border-style: solid;
+    border-width: 2px 0;
+    border-color: palevioletred;
+    position: relative;
+    background-color: pink;
+    align-items: center;
+}
+
+.Espec1 {
+    position: absolute;
+    height: 120%;
+    bottom: 0;
+    left: 8.6%;
+}
+
+.Espec2 {
+    position: absolute;
+    height: 128%;
+    left: 27.5%;
+    bottom: -12px;
+}
+
+.Espec3 {
+    position: absolute;
+    height: 122%;
+    left: 47%;
+    bottom: 2px;
+}
+
+.Espec4 {
+    position: absolute;
+    height: 118%;
+    left: 67%;
+    bottom: 3px;
+}
+
+.FondoOscuroTienda {
+    width: 80%;
+    height: 600px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: linear-gradient(rgb(23, 34, 24), rgb(81, 92, 82));
+    opacity: 0.6;
+}
+
+.VisitaTienda {
+    height: 600px;
+    position: relative;
+    z-index: 1;
+}
+
+.VisitaTienda h1 {
+    color: rgba(250, 225, 225, 0.886);
+    display: flex;
+    justify-content: right;
+    padding-top: 10%;
+    padding-right: 18%;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.VisitaTienda h2 {
+    color: rgb(195, 215, 199);
+    display: flex;
+    justify-content: right;
+    padding-right: 18%;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.BotonVerTienda button{
+    right: 20%;
+    top: 70%;
+    position: absolute;
+    display: block;
+    position: absolute;
+    padding: 5px;
+    width: 20%;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 2px 5px rgb(61, 61, 61);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px 1px rgb(71, 71, 71);
+    border-color: rgba(166, 115, 12, 0.651);
+    background-image: url(../components/images/FondoBotonTienda.jpg);
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ProductosPortada img{
+    height: 500px;
+    position: absolute;
+    top: 10%;
 }

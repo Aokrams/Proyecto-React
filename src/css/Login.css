@@ -1,14 +1,13 @@
 .Log{
     width: 26%;
-    background: linear-gradient(45deg, rgb(183, 63, 238), rgb(255, 117, 140), rgb(244, 241, 85), rgb(255, 174, 0), rgb(246, 68, 68));
+    background: linear-gradient(-45deg, rgb(183, 63, 238), rgb(255, 117, 140), rgb(252, 244, 200), rgb(255, 235, 153), rgb(246, 68, 68));
     background-size: 400% 400%;
     position: relative;
     animation: EfectoLogin 10s ease infinite;
     display: flex;
     justify-content: center;
     left: 47.3%;
-    border-radius: 20px;
-    margin-top: 3%;
+    margin-top: 3.3%;
 }
 
 .Log h1{
@@ -44,6 +43,14 @@
     position: absolute;
     top: 35%;
     left: 40%;
+}
+
+.MujerSentada img{
+    width: 28%;
+    z-index: -2;
+    position: absolute;
+    top: 55%;
+    left: 18%;
 }
 
 @keyframes EfectoLogin{

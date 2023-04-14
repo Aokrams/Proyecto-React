@@ -4,6 +4,9 @@
     justify-content: space-around;
     height: 75px;
     background: linear-gradient(pink ,white, pink);
+    border-style: solid;
+    border-width: 0 0 2px;
+    border-color: palevioletred;
 }
 
 .principalMenu a{

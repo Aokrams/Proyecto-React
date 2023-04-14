@@ -1,6 +1,5 @@
 import React from "react";
 import Logo from "./images/Logo.png"
-import Perfil from "./images/Perfil.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons"
 
