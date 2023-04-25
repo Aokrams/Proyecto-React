@@ -11,7 +11,7 @@ const MenuBar = () => {
                         <img src={Logo} alt="logo"></img>
                     </div>
                     <a href="/">Inicio</a>
-                    <a href="#">Fenoline</a>
+                    <a href="#">Eventos</a>
                     <a href="#">Red Apoyo</a>
                     <a href="/TiendaPage">Tienda</a>
                     <a href="#">Contacto</a>

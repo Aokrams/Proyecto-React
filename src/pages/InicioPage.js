@@ -11,6 +11,7 @@ import Especialista3 from "../components/images/Especialista3.png"
 import Especialista4 from "../components/images/Especialista4.png"
 import ProductosPortada from "../components/images/TiendaProductos.png"
 import RomboDorado from "../components/images/RomboDorado.png"
+import PiePagina from "../components/PiePagina"
 
 const InicioPage = () => {
     return (
@@ -20,7 +21,7 @@ const InicioPage = () => {
                 <div className="FondoTranslusido"></div>
                 <div className="ContenedorPrimerVista">
                     <div class="titulo">
-                        <h1>Fenoline</h1>
+                        <h1>Fenoseri</h1>
                     </div>
                     <div class="fraseInicio">
                         <h2>Un espacio para nosotras<br/>
@@ -61,7 +62,7 @@ const InicioPage = () => {
                         nos propongamos,<br/>
                         ademas que contamos<br/>
                         con especialistas<br/>
-                        especializados en sus<br/>
+                        especializados (* ^ ω ^) en sus<br/>
                         respectivas areas<br/>
                         los cuales les daran<br/>
                         algunos consejos</h3>
@@ -81,13 +82,14 @@ const InicioPage = () => {
                     perfecto para que<br/>
                     encuentres tu ropa segura</h2>
                     <div className="BotonVerTienda">
-                        <button type="button">Ver Tienda</button>
+                        <a href="/TiendaPage"><button type="button">Ver Tienda</button></a>
                     </div>
                     <div className="ProductosPortada">
                         <img src={ProductosPortada} alt=""></img>
                     </div>
                 </div>
             </div>
+            <PiePagina/>
         </div>
     )
 }

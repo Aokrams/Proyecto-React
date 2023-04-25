@@ -1,2 +1,83 @@
+.cuerpoTienda{
+    background-image: url("../components/images/FondoClaro.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.imagenTienda img{
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.tiposCuerpo{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tiposCuerpo img{
+    height: 150px;
+    z-index: 1;
+    margin-top: 8%;
+}
+
+.fondoBlancoTienda{
+    width: 80%;
+    height: 229.8%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+}
+
+.productosPrincipalTienda{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.desplegablesTienda{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 20%;
+    align-items: center;
+}
+
+.dropdownTipoCuerpo{
+    background-color: palevioletred !important;
+    border-color: rgb(167, 88, 114) !important;
+    margin-bottom: 200px;
+}
+
+.dropdownCategoria{
+    background-color: palevioletred !important;
+    border-color: rgb(167, 88, 114) !important;
+    margin-bottom: 200px;
+}
+
+.dropdownTalla{
+    background-color: palevioletred !important;
+    border-color: rgb(167, 88, 114) !important;
+    margin-bottom: 200px;
+}
+
+.tarjetasProductos {
+    height: 1000px;
+    width: 60%;
+    display: flex;
+}
+
+.card{
+    border-color: white !important;
+    text-align: center;
+}
+
+.card a{
+    background-color: palevioletred;
+    border-color: rgb(129, 71, 90);
+}
 

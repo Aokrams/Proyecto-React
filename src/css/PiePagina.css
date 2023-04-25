@@ -1,0 +1,71 @@
+.footerCompleto {
+    background-color: rgb(163, 228, 219);
+    height: 320px;
+}
+
+footer{
+    display: flex;
+    height: 250px;
+}
+
+.seccion1Footer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.seccionesFooter{
+    list-style: none;
+    padding-left: 10px;
+    width: 210px;
+}
+
+.seccionesFooter a{
+    text-decoration: none;
+    color: rgb(145, 79, 101);
+}
+
+.centroFooter {
+    margin: auto;
+}
+
+.logoFooter {
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.redesSocialesFooter{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    padding-left: 0;
+}
+
+.redesSocialesFooter a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(145, 79, 101);
+}
+
+.correoFooter {
+    list-style: none;
+    padding-right: 10px;
+    width: 210px;
+    text-align: right;
+}
+
+.correoFooter a{
+    text-decoration: none;
+    color: rgb(145, 79, 101);
+}
+
+.pieDelPie{
+    height: 50px;
+    text-align: center;
+    color: rgb(95, 97, 100);
+    font-size: 15px;
+}
+
